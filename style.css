@@ -584,9 +584,9 @@ footer .copyright{
     }
 }
 
-@media (max-width : 455px) {
+@media (max-width : 477px) {
     #header{
-        padding: 15px 80px;
+        padding: 10px 20px;
         position: sticky;
         top: 0;
         left: 0;
@@ -594,7 +594,8 @@ footer .copyright{
     #hero{
         height: 60vh;
         width: 100%;
-        padding: 0 80px;
+        padding: 0 20px;
+        background-position: 50%;
     }
     #feature .fe-box{
         width: 120px;
