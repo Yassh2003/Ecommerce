@@ -554,15 +554,19 @@ footer .copyright{
     }
 
     #hero{
-        height: 30vh;
+        height: 70vh;
     }
 
     #product1 .pro-container {
         justify-content: space-around;
     }
 
-    .section-p1 {
-        padding: 40px 120px;
+    #sm-banner .banner-box{
+        min-width: 100%;
+    }
+
+    #sm-banner .banner-box2{
+        margin-top: 10px;
     }
 
     #banner3 .banner-box{
@@ -572,6 +576,10 @@ footer .copyright{
     }
 
     #banner3 .banner-box3{
+        min-width: 100%;
+    }
+
+    #newsletter input {
         min-width: 100%;
     }
 }
