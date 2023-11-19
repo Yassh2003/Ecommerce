@@ -583,3 +583,32 @@ footer .copyright{
         min-width: 100%;
     }
 }
+
+@media (max-width : 455px) {
+    #header{
+        padding: 15px 80px;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    #hero{
+        height: 60vh;
+        width: 100%;
+        padding: 0 80px;
+    }
+    #feature .fe-box{
+        width: 120px;
+        text-align: center;
+        padding: 0px 5px;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+        border: 1px solid #cce7d0;
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+    #sm-banner .banner-box{
+        height: 20vh;
+        min-width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+}
