@@ -45,3 +45,4 @@ smallImg[3].onclick = function(){
     smallImg[2].style.border = "none";
     smallImg[3].style.border = "2px solid #088178";
 }
+
